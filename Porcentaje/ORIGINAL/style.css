@@ -1,0 +1,169 @@
+/* Óscar Arroyo Aguadero */
+
+/* Establecemos una fuente de letra única para toda la web */
+html {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Establecemos de fondo para la web una imagen y cubrimos toda la web */
+body {
+    background-image: url("img/wallpaper.jpg");
+    background-size: cover;
+}
+
+/* Estilizamos el encabezado */
+header {
+    text-align: center;
+    color: white;
+}
+
+/* Estilizamos la barra de navegación */
+nav {
+    height: 36px;
+    background-color: #00bf00;
+    text-align: center;
+    margin: 25px auto;
+}
+
+/* Estilizamos los elementos de la lista de navegación */
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Quitamos los puntos de lista y el espacio de margen de la lista de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizamos los enlaces de navegación */
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Cambiamos el color al pasar el ratón sobre los enlaces de navegación */
+nav a:hover {
+    color: #2874A6;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+/* Estilizamos el contenedor principal */
+.contenido {
+    width: 1224px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 30px;
+    min-height: 540px; /* 75vh de 720px */
+}
+
+/* Estilizamos el texto en negrita */
+.negrita {
+    font-weight: bold;
+}
+
+/* Estilizamos el pie de página */
+footer {
+    width: 1280px;
+    height: 36px;
+    background-color: #00bf00;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+/* Estilos para la tabla en la sección "Datos" */
+#datos table {
+    width: 640px;
+    border-collapse: collapse;
+    margin-top: 14px;
+    margin-left: 320px;
+}
+
+#datos th, #datos td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#datos th {
+    background-color: #f2f2f2;
+}
+
+/* Ajustamos el tamaño de las imágenes dentro de la sección de noticias */
+.noticias img {
+    width: 640px;
+    margin-left: 320px;
+}
+
+/* Cambiamos el color de los enlaces dentro de la sección de noticias */
+.noticias a {
+    color: dodgerblue;
+}
+
+#datos p {
+    width: 640px;
+}
+#consecuencias li {
+    width: 640px;
+}
+
+#consecuencias img {
+    margin-left: 320px;
+    width: 640px;
+}
+
+#inicio p {
+    width: 640px;
+    font-size: large;
+}
+#inicio img {
+    width: 192px;
+    margin-left: 960px;
+}
+
+form {
+    width: 640px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 640px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    background-color: #00bf00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2874A6;
+}
+
+/* Estilos para los campos de formulario */
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

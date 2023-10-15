@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!-- Óscar Arroyo Aguadero -->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Óscar Arroyo Aguadero */
+
+    /* Establecemos una fuente de letra única para toda la web */
+    html {
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Establecemos de fondo para la web una imagen y cubrimos toda la web */
+    body {
+      background-image: url("img/wallpaper.jpg");
+      background-size: cover;
+    }
+
+    /* Estilizamos el encabezado */
+    header {
+      text-align: center;
+      color: white;
+    }
+
+    /* Estilizamos la barra de navegación */
+    nav {
+      height: 36px;
+      background-color: #00bf00;
+      text-align: center;
+      margin: 25px auto;
+    }
+
+    /* Estilizamos los elementos de la lista de navegación */
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    /* Quitamos los puntos de lista y el espacio de margen de la lista de navegación */
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Estilizamos los enlaces de navegación */
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+    }
+
+    /* Cambiamos el color al pasar el ratón sobre los enlaces de navegación */
+    nav a:hover {
+      color: #2874A6;
+    }
+
+    h1 {
+      text-decoration: underline;
+    }
+
+    /* Estilizamos el contenedor principal */
+    .contenido {
+      width: 1224px;
+      background-color: white;
+      border-radius: 15px;
+      margin: 0 auto;
+      padding: 30px;
+      min-height: 540px; /* 75vh de 720px */
+    }
+
+    /* Estilizamos el texto en negrita */
+    .negrita {
+      font-weight: bold;
+    }
+
+    /* Estilizamos el pie de página */
+    footer {
+      width: 1280px;
+      height: 36px;
+      background-color: #00bf00;
+      margin: 0 auto;
+      text-align: center;
+      color: white;
+    }
+
+    /* Estilos para la tabla en la sección "Datos" */
+    #datos table {
+      width: 640px;
+      border-collapse: collapse;
+      margin-top: 14px;
+      margin-left: 320px;
+    }
+
+    #datos th, #datos td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    #datos th {
+      background-color: #f2f2f2;
+    }
+
+    /* Ajustamos el tamaño de las imágenes dentro de la sección de noticias */
+    .noticias img {
+      width: 640px;
+      margin-left: 320px;
+    }
+
+    /* Cambiamos el color de los enlaces dentro de la sección de noticias */
+    .noticias a {
+      color: dodgerblue;
+    }
+
+    #datos p {
+      width: 640px;
+    }
+    #consecuencias li {
+      width: 640px;
+    }
+
+    #consecuencias img {
+      margin-left: 320px;
+      width: 640px;
+    }
+
+    #inicio p {
+      width: 640px;
+      font-size: large;
+    }
+    #inicio img {
+      width: 192px;
+      margin-left: 960px;
+    }
+
+    form {
+      width: 640px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f2f2f2;
+      margin: 0 auto;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    select {
+      width: 640px;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Estilos para el botón de envío */
+    input[type="submit"] {
+      background-color: #00bf00;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #2874A6;
+    }
+
+    /* Estilos para los campos de formulario */
+    label {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+  </style>
+  <title>Impacto Medioambienta del e-Commerce</title>
+</head>
+<body>
+<header>
+  <h1>Impacto Medioambienta del e-Commerce</h1> <!-- Encabezado principal de la página -->
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Inicio</a></li> <!-- Enlace a la página de inicio -->
+    <li><a href="encuesta.html">Encuesta</a></li> <!-- Enlace a la página de encuesta -->
+  </ul>
+</nav>
+
+<div class="contenido"> <!-- Contenedor principal -->
+  <section id="inicio"> <!-- Sección de inicio -->
+    <h1>Inicio</h1> <!-- Título de la sección -->
+    <p> <!-- Párrafo de texto -->
+      En esta página web, recogeremos las consecuencias que tiene para el medio ambiente las compras que realizamos habitualmente a través de internet, con el fin de fomentar un uso responsable del e-commerce y fomentar alternativas. ¿Nos acompañas?
+    </p>
+    <img src="img/img1.png" alt="Compra online"> <!-- Imagen asociada a la sección -->
+  </section>
+  <section id="consecuencias"><!-- Sección de consecuencias -->
+    <h1>Consecuencias del e-commerce</h1> <!-- Título de la sección -->    <p>Debido a la gran cantidad de compras online con sus respectivos pedidos, tenemos las siguientes consecuencias:</p><!-- Párrafo de texto -->
+    <ul>
+      <li><span class="negrita">Emisiones Contaminantes.</span><!-- Elemento de lista con clase CSS --> Todos los productos necesitan ser transportados en avión, barco, camiones, furgonetas, etc. Estas producen CO2 y demás químicos contaminantes para la atmósfera.</li>
+      <li><span class="negrita">Problemas de movilidad urbana.</span> Las empresas repartidoras hacen circular una gran cantidad de vehículos, priorizando la rapidez y sin optimizar la carga.</li>
+      <li><span class="negrita">Exceso de residuos.</span> Los paquetes de los envíos al llegar a su destino se vuelven residuos sin mayor utilidad. Además, todos los productos devueltos generan que otra vez se inicie el proceso de envío a la inversa y en muchas ocasiones se destruyen sin aprovecharse los productos devueltos.</li>
+      <li><span class="negrita">Problemas sociales.</span> Las malas condiciones laborales y la concentración del mercado en pocos actores aumentan las desigualdades sociales y la falta de transparencia en sus informes.</li>
+    </ul>
+    <img src="img/img2.jpg" alt="Carrito de la compra en un ordenador">
+  </section>
+  <section id="datos"> <!-- Sección de datos -->
+    <h1>Datos</h1> <!-- Título de la sección -->
+    <br>
+    <h2>Impacto</h2> <!-- Subtítulo -->
+    <p>En los últimos años, el número de personas que compran en línea se ha disparado a medida que Internet ha llegado a todos los rincones del mundo. Se calcula que durante 2018 hubo 1.800 millones de consumidores online, los cuales durante la presente década se han disparado por la pandemia. </p><!-- Párrafo de texto -->
+    <table> <!-- Tabla de datos -->
+      <!-- Filas y columnas de la tabla -->
+      <tr>
+        <th>Estadísticas e-commerce</th>
+        <td>Global</td>
+        <td>Europa</td>
+        <td>España</td>
+      </tr>
+      <tr>
+        <td>Ingresos previstos</td>
+        <td>3,42 billones de euros</td>
+        <td>593.500 millones de euros</td>
+        <td>30.710 millones de euros</td>
+      </tr>
+      <tr>
+        <td>Porcentaje de usuarios</td>
+        <td>57.2%</td>
+        <td>64.0%</td>
+        <td>71.2%</td>
+      </tr>
+    </table>
+  </section>
+  <section class="noticias"> <!-- Sección de noticias (repetida) -->
+    <h1>Noticias</h1> <!-- Título de la sección de noticias -->
+    <h2>La fiebre del comercio 'online': éstas son las desastrosas consecuencias de comprar desde el sofá</h2> <!-- Título de la noticia -->
+    <p> <!-- Párrafo de texto -->
+      En 2018, se registraron 1.800 millones de consumidores en línea en todo el mundo, generando ventas de 2,8 billones de dólares. Se espera que estas cifras aumenten significativamente en los próximos años. Aunque las compras en línea son convenientes, tienen un gran impacto ambiental debido a las emisiones de CO2, especialmente por el transporte y los embalajes.
+      <br> <!-- Salto de línea -->
+      El uso excesivo de embalajes, incluyendo cajas de cartón y plástico, contribuye significativamente a la contaminación y los residuos sólidos. También se menciona la cultura del "unboxing", donde las marcas regalan productos envueltos en cajas llamativas a influencers para promocionarlos en las redes sociales, fomentando el consumismo y el desperdicio.
+      <br> <!-- Salto de línea -->
+      Las empresas, como Amazon e Ikea, están comenzando a utilizar vehículos de cero emisiones para reducir su impacto ambiental. Sin embargo, la entrega rápida el mismo día y las devoluciones frecuentes aumentan la cantidad de transporte y emisiones adicionales. Además, muchos consumidores no son conscientes del impacto ambiental de sus compras en línea.
+      <br> <!-- Salto de línea -->
+      La noticia destaca la importancia de hacer compras más sostenibles, considerando la necesidad real de los productos, eligiendo productos locales y ecológicos, y optando por puntos de recogida en lugar de entregas individuales para reducir el impacto ambiental.
+    </p>
+    <p> <!-- Párrafo de texto -->
+      Fuente: <a href="https://www.elespanol.com/ciencia/medio-ambiente/20200308/fiebre-comercio-online-desastrosas-consecuencias-comprar-sofa/472703925_0.html">El Español</a> <!-- Enlace y fuente -->
+    </p>
+    <img src="img/img3.jpg" alt="Trabajador llevando un paquete"> <!-- Imagen asociada a la noticia -->
+    <br> <!-- Salto de línea -->
+  </section>
+
+  <section class="noticias"> <!-- Sección de noticias (repetida) -->
+    <h2>'Click&collect', la fórmula para hacer la compra con menor impacto medioambiental</h2> <!-- Título de la noticia -->
+    <p> <!-- Párrafo de texto -->
+      El estudio "Foodelivery" realizado en Euskadi concluye que realizar pedidos de compra por internet y recogerlos a pie tiene el menor impacto ambiental. Según el estudio, esta modalidad de compra emite 16,3 gramos de CO2 por cada kilogramo de compra, debido a un menor consumo de energía en comparación con las compras en tiendas físicas. Además, el empaquetado utilizado para el transporte tiene una huella de carbono inferior al 3%. El estudio también revela que el 50% de los consumidores estaría dispuesto a cambiar sus hábitos si conociera el impacto ambiental de sus acciones. Se planea una campaña de concienciación basada en estos resultados.
+    </p>
+    <p> <!-- Párrafo de texto -->
+      Fuente: <a href="https://cadenaser.com/euskadi/2023/09/08/clickcollect-la-formula-para-hacer-la-compra-con-menor-impacto-medio-ambiental-radio-san-sebastian/">Cadena SER</a> <!-- Enlace y fuente -->
+    </p>
+    <img src="img/img4.jpg" alt="Compra en un supermercado"> <!-- Imagen asociada a la noticia -->
+  </section>
+
+  <section class="noticias"> <!-- Sección de noticias (repetida) -->
+    <h2>La huella de las compras online, las devoluciones y el envío exprés en Navidad</h2> <!-- Título de la noticia -->
+    <p> <!-- Párrafo de texto -->
+      El auge de las compras en línea en la temporada navideña ha llevado a un aumento en las entregas rápidas y devoluciones, lo que genera mayores emisiones de CO2. Un estudio español muestra que las devoluciones en línea alcanzan el 20-30%, frente al 6% en las tiendas físicas. Iniciativas como Entregasostenible.org buscan promover un consumo responsable, alentando la consolidación de envíos y la elección de opciones más sostenibles, así como favoreciendo productos locales, mientras se evitan las entregas urgentes de 24 horas.
+    </p>
+    <p> <!-- Párrafo de texto -->
+      Fuente: <a href="https://www.larazon.es/medio-ambiente/20221223/a55qrn6aovd23gt6jchors4vvu.html">La Razón</a> <!-- Enlace y fuente -->
+    </p>
+    <img src="img/img5.jpg" alt="Entrega de paquete"> <!-- Imagen asociada a la noticia -->
+  </section>
+</div>
+
+<footer>
+  <p>Escuela Virgen de Guadalupe - 2023</p> <!-- Pie de página -->
+</footer>
+</body>
+</html>
